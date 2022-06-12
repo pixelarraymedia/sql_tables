@@ -8,7 +8,9 @@
 
         foreach ($list as $key => $val){
 
-                echo "list item [" .$key. "] = " . $val . "\n";
+                echo " [" .$key. "] = " . $val . "\n";
+                
         }
+        
 
 ?>
