@@ -26,7 +26,7 @@ include("header.php");
                         $result = mysqli_query($dblink, $sql);
 
                         if ($result == false) {
-                                    // if query fails connection shoq SQL error
+                                    // if query fails connection show SQL error
                             echo '<div class="article">Query Error : ' . $sql . ' </div> ';
 
                         } else
